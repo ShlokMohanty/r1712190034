@@ -1,0 +1,6 @@
+first line modifeid in test
+
+
+new lines adeed
+second line added in master
+close in test
