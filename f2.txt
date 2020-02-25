@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 making changes in file 2
+=======
+this is my second file
+>>>>>>> master
 
