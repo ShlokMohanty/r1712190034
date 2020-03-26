@@ -73,7 +73,7 @@ int main()
 	ts.push1(5);
 	ts.push2(10);
 	ts.push2(15);
-	ts.push1(11);
+	
 	cout<<"pop an element from stack1: "<<ts.pop1()<<"\n";
 	ts.push2(40);
 	cout<<"pop an element from stack2: "<<ts.pop2()<<"\n";
