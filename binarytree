@@ -6,3 +6,5 @@ int data;
 struct node *rightchild;
 }
 *root=NULL;
+void Insert(int key) 
+{ 
