@@ -32,5 +32,11 @@ void Insert(int key)
       else
       return;
    }
+    p=(struct Node *)malloc(sizeof(struct Node));  
+    p->data=key;   
+    p->lchild=p->rchild=NULL;    
+    if(key<r->data)
+    r->lchild=p;    
+    else r->rchild=p; 
   
   
