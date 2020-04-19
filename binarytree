@@ -8,3 +8,15 @@ struct node *rightchild;
 *root=NULL;
 void Insert(int key) 
 { 
+  struct Node *t =root;
+  struct Node *r =NULL,*p;
+  if(root =NULL)
+  {
+    p=(struct Node = (malloc(size of (struct Node));
+    p-> data =key;
+    p->lchild=p->chlid= NULL;
+    root= p;
+    return;
+   }
+  }
+  
