@@ -18,15 +18,19 @@ void Insert(int key)
     root= p;
     return;
    }
-  }
  while(t!=NULL)
  {
     r=t;
     if(key <(t->data))
     {
-      t=p->lchild
-     }
+      t=p->lchild;
+      }
+      else if(key>t->data)
+      {
+      t=t->rchild;
+      }
+      else
+      return;
    }
-   
   
   
