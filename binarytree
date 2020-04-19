@@ -38,5 +38,16 @@ void Insert(int key)
     if(key<r->data)
     r->lchild=p;    
     else r->rchild=p; 
+   }
+   void Inorder(struct Node *p)
+   {
+    if(p)
+    {
+      Inorder (p->lchild)
+      cout<<p->data<<"Inorder;
+     }
+    }
+    
+    
   
   
