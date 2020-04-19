@@ -45,9 +45,26 @@ void Insert(int key)
     {
       Inorder (p->lchild)
       cout<<p->data<<"Inorder;
+      inorder (p->rchild)
      }
     }
-    
+    struct node *search(int key)
+    {
+    struct node *t=root;
+    while(t!=NULL)
+    {
+    if(key==t->data)
+    {
+    return t;
+    }
+    else if(key<t->data)
+    {
+t=t->lchild;
+}
+else
+{
+t=t->rchild;
+}
     
   
   
