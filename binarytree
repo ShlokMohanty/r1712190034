@@ -19,4 +19,14 @@ void Insert(int key)
     return;
    }
   }
+ while(t!=NULL)
+ {
+    r=t;
+    if(key <(t->data))
+    {
+      t=p->lchild
+     }
+   }
+   
+  
   
