@@ -1,9 +1,9 @@
 #include<Iostream>
 using namespace std;
 struct node{
-struct node *leftchild;
+struct node *lchild;
 int data;
-struct node *rightchild;
+struct node *rchild;
 }
 *root=NULL;
 void Insert(int key) 
